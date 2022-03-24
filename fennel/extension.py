@@ -1,12 +1,8 @@
 import sqlite3
+from os import getcwd, sep
 
-conn = sqlite3.connect("data.db")
+conn = sqlite3.connect(getcwd() + sep + "data.db")
 cursor = conn.cursor()
-
-
-def boot():
-    pass
-
 
 def create_table():
     try:

@@ -1,2 +1,6 @@
 *.exe
 /.idea
+/build
+/dist
+*.spec
+./data.db
